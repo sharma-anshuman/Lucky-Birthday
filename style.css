@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&family=Inconsolata&family=Kalam&display=swap');
+
+body{
+    font-family: 'Inconsolata', monospace;
+    margin: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f3f4f6;
+    flex: 100%;
+}
+
+.header{
+    font-size: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    display: block;
+    background-color: #2563eb;
+    max-width: 100%;
+    border-bottom-left-radius: 1rem;
+}
+
+.main-body{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+
+
+input{
+    border-radius: 15px;
+    text-align: center;
+    padding: 0.1rem;
+    height: 1.7rem;
+    font-size: large;
+    width: 10rem;
+}
+
+button{
+    margin: 2rem 0px;
+    padding: 0.5rem 0.9rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: large;
+}
+
+
+.btn-click {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.1s;
+  }
+  
+  .btn-click:hover {
+    background-color: #2563eb;
+    color: white;
+  }
+
+  .output{
+    margin-top: 1.3rem;
+    margin-bottom: 1.9rem;
+    font-size: x-large;
+  }
+
+  .neonText {
+    color: black;
+    text-shadow:
+        0 0 7px #2563eb,
+        0 0 10px #2563eb,
+        0 0 21px #2563eb,
+        0 0 42px #2563eb,
+        0 0 82px #2563eb,
+        0 0 92px #2563eb,
+        0 0 102px #2563eb,
+        0 0 151px #2563eb;
+  }
+  
+
+  .footer{
+    background-color: #2563eb;
+    padding: 2rem 0px;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    padding-bottom: 10px;
+    height: 100%;
+    display: inherit;
+    float: inline-end;
+}
+
+.list-item-inline{
+    display: inline-block;
+    padding: 0rem 0.5rem;
+}
+
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.alert-line{
+    color: red;
+}
