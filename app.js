@@ -5,12 +5,16 @@ var op = document.querySelector(".output");
 var alertLine = document.querySelector(".alert-line");
 
 function clickHandler(){
-
     op.innerHTML = "";
     alertLine.innerHTML = "";
     var datestr = date.value.toString();
-    console.log(datestr);
-    if(datestr.length === 0){
+    var x = luckyNumber.value;
+    var year = "";
+    for(var i = 0; i<datestr.length; i++){
+        if(datestr[i] == '-') break;
+        year+=(datestr[i]);
+    }
+    if(datestr.length === 0 || x == 0 || x.toString().length == 0 || year>2022){
         alertLine.innerHTML = "!Error: Invalid Input"
     }
     else{
